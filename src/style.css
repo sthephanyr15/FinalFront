@@ -123,21 +123,22 @@ footer {
     text-align: center;
 }
 html section article{
-    padding: 15px;
-}
-html section article .contenido{
-    border-bottom: 4px solid #333;
-    border-top: 4px solid #333;
+    padding: 2px;
     width: 450px;
+    margin-top: 10px;
+    background-color: white;
     display: flex;
     flex-direction: column;
 }
+html section article .contenido{
+    width: 450px;
+}
 html section article .contenido .portada{
-    background-color: white;
     display: flex;
-
+    padding:2px,
 }
 html section article .contenido .portada img {
+    padding: 10px;
     height: 200px;
     width: 400px;
   }
@@ -153,5 +154,21 @@ html section article .contenido .informacion .tag-precio{
     justify-content: space-between;
     flex-direction: row;
     margin-top: 10px;
-    color: aqua;
 }
+html section article .contenido .informacion .tag-precio .type p{
+    color: #02d6ae;;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+html section article .contenido .informacion .tag-precio .precio p{
+    color: black;
+    font-size: 22px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.productList{
+    display: flex;
+    flex-direction: row;
+   }

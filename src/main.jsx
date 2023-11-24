@@ -1,9 +1,11 @@
-import React from 'react'
-import ReactDOM from 'react-dom/client'
-import './style.css'
+import ReactDOM from "react-dom/client";
+import App from "./App"
+import './fonts/icomoon.css';
+import './fonts/icomoon.eot';
+import './fonts/icomoon.svg';
+import './fonts/icomoon.ttf';
+import './fonts/icomoon.woff';
 
-ReactDOM.createRoot(document.getElementById('root')).render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-)
+
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
