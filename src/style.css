@@ -7,23 +7,52 @@ body {
     font-family: Arial, sans-serif;
 }
 .nav-container{
-    flex-direction: column;
     position: relative;
+    padding-top: 10px;
 }
-
+nav ul{
+    padding:0;
+    list-style: none;
+    margin-left: auto;
+}
+nav ul li{
+    display: flex;
+    position: relative;
+    display: inline-block;
+    margin: 0 10px;
+}
+.logo-container{
+    display: flex;
+    flex:1;
+    position: relative;
+    align-items: center;
+    margin-left: 10px;
+    
+}
+.nav-links{
+    margin-left: auto;
+    align-self: flex-start;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
 nav {
     display: flex;
     height: 430px;
-    align-content: center;
     background-image: url('/src/images/background.jpg');
     color: #fff;
-    text-decoration: none;
+    padding: 10px;
     align-items: center;
+    text-decoration: none;
+    justify-content: space-between;
     position: relative;
 }
 
 main {
-    padding: 20px;
+    padding: 5px;
     background-color: #f5f5f5;
 }
 
@@ -46,6 +75,20 @@ main {
     align-items: center;
     overflow: hidden;
 }
+.flecha-der, .flecha-izq{
+    width:50px;
+    background-color:#02d6ae;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 30px;
+    margin-right: 10px;
+    border-color: #02d6ae;
+}
+.arrow-buttons {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+  }
 img{
     position: relative;
     align-items: center;
@@ -72,9 +115,9 @@ img{
     position: relative;
     display: flex;
     width: 325px;
-    color: black;
+    color: #696969;
     height: 50px;
-    border: 1px solid #ccc;
+    border: 1px solid #c1bfbf;
     border-radius: 5px;
     padding: 5px;
     box-sizing: border-box;
@@ -90,10 +133,14 @@ img{
     text-align: start;
     padding-top:40px;
     padding: 20px;
+    padding-left: 10px;
     display: grid;
     border-radius: 10px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 20px;
+}
+.products h2{
+    padding: 10px;
 }
 .blue-box-container{
     display: flex;
@@ -106,7 +153,7 @@ img{
     display: flex;
     align-items: start;
     font-family: Arial, sans-serif;
-    font-size: 17px;
+    font-size: 20px;
     text-align: Left;
     width: 400px;
     height: 30px;
@@ -127,6 +174,7 @@ html section article{
     width: 450px;
     margin-top: 10px;
     background-color: white;
+    margin-left: 10px;
     display: flex;
     flex-direction: column;
 }
@@ -167,8 +215,40 @@ html section article .contenido .informacion .tag-precio .precio p{
     border-radius: 5px;
     font-weight: bold;
 }
+html section article .contenido .informacion .creator{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    border-top: 1px solid #333;
+}
+html section article .contenido .informacion .creator .avatar img{
+    height: 30px;
+    width: 30px;
+    margin-top: 5px;
+}
+html section article .contenido .informacion .creator .nombre{
+    margin-left: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    align-items: center;
+}
+html section article .contenido .informacion .creator .ranking {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+}
+html section article .contenido .informacion .creator .ranking p{
+    margin:0;
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+html section article .contenido .informacion .creator .ranking span{
+    color: yellow;
+}
 
 .productList{
     display: flex;
+    padding: 10px;
     flex-direction: row;
    }

@@ -9,7 +9,15 @@ class App extends Component {
       <div>
         <main>
         <nav>
+          <div className="logo-container">
           <img src="/src/images/rb.png" />
+          </div>
+          <div className="nav-links">
+          <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Login</a></li>
+            </ul>          
+          </div>
         </nav>
           <div className="nav-container">
             <div className="blue-box">
@@ -31,6 +39,9 @@ class App extends Component {
           </div>
           <section className="products">
             <h2>Latest Online Products</h2>
+            <div className="arrow-buttons">
+            <button className="flecha-izq">&lt;</button><button className="flecha-der">&gt;</button>
+            </div>
           </section>
           <section className="productList">
             <Product></Product>
@@ -40,7 +51,9 @@ class App extends Component {
           </section>
           
         </main>
-        
+        <footer>
+          <p>&copy; 2023 Desarrollado por: Marcela V. Hernández López y Sthephany Rojas Sabogal</p>
+        </footer>
       </div>
     );
   }
