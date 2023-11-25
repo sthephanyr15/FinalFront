@@ -60,7 +60,7 @@ class Product extends Component {
                         value={this.state.editedName}
                         onChange={this.handleNameChange}
                       />
-                      <button className="save" onClick={this.saveEdit}>
+                      <button className="save" onClick={this.toggleEdit}>
                         Save
                       </button>
                       <button className="cancel" onClick={this.toggleEdit}>

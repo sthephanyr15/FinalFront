@@ -10,11 +10,11 @@ article {
     flex-direction: column;
   }
   
-  .product-buttons .edit{
+  .product-buttons .edit, .product-buttons .save{
       background-color: #02d65a;
   }
   
-  .product-buttons .delete{
+  .product-buttons .cancel{
     background-color: #d60202;
   }
   

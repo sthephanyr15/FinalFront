@@ -31,7 +31,7 @@ nav {
   }
   
   .nav-buttons button:hover {
-    background-color: #106b59; /* Cambia el color cuando se pasa el ratón para resaltar más */
+    background-color: #106b59;
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
   }
   
