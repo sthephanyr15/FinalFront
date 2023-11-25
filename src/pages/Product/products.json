@@ -1,0 +1,265 @@
+[
+    {
+      "id": 1,
+      "name": "Game",
+      "image": "/src/images/img1.jpg",
+      "description": "Lorem ipsum",
+      "type": "Funny",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 2,
+      "name": "Charlie and Lola",
+      "image": "/src/images/caricatura.jpg",
+      "description": "Lorem ipsum",
+      "type": "Cartoon",
+      "price": 18,
+      "creator": {
+        "avatar": "/src/images/icon2.png",
+        "name": "Jane Doe",
+        "rating": 4
+      }
+    },
+    {
+      "id": 3,
+      "name": "Cartoon Network",
+      "image": "/src/images/cartoon.jpg",
+      "description": "Lorem ipsum",
+      "type": "Action",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 4,
+      "name": "Powerpuff Girls",
+      "image": "/src/images/chicassuper.jpg",
+      "description": "Lorem ipsum",
+      "type": "Funny",
+      "price": 18,
+      "creator": {
+        "avatar": "/src/images/icon2.png",
+        "name": "Jane Doe",
+        "rating": 4
+      }
+    },
+    {
+      "id": 5,
+      "name": "Doug",
+      "image": "/src/images/doug.jpg",
+      "description": "Lorem ipsum",
+      "type": "Funny",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 6,
+      "name": "The Amazing World of Gumball",
+      "image": "/src/images/gumbal.jpg",
+      "description": "Lorem ipsum",
+      "type": "Cartoon",
+      "price": 18,
+      "creator": {
+        "avatar": "/src/images/icon2.png",
+        "name": "Jane Doe",
+        "rating": 4
+      }
+    },
+    {
+      "id": 7,
+      "name": "Adventure Time",
+      "image": "/src/images/horadeaventura.jpg",
+      "description": "Lorem ipsum",
+      "type": "Funny",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 8,
+      "name": "BoJack Horseman",
+      "image": "/src/images/horse.webp",
+      "description": "Lorem ipsum",
+      "type": "Cartoon",
+      "price": 18,
+      "creator": {
+        "avatar": "/src/images/icon2.png",
+        "name": "Jane Doe",
+        "rating": 4
+      }
+    },
+    {
+      "id": 9,
+      "name": "Jhonny Bravo",
+      "image": "/src/images/jhonny.avif",
+      "description": "Lorem ipsum",
+      "type": "Cartoon",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 10,
+      "name": "The Fairly OddParents",
+      "image": "/src/images/padrinos.jpg",
+      "description": "Lorem ipsum",
+      "type": "Funny",
+      "price": 18,
+      "creator": {
+        "avatar": "/src/images/icon2.png",
+        "name": "Jane Doe",
+        "rating": 4
+      }
+    },
+    {
+      "id": 11,
+      "name": "The Flintstones",
+      "image": "/src/images/picapiedras.jpg",
+      "description": "Lorem ipsum",
+      "type": "Cartoon",
+      "price": 18,
+      "creator": {
+        "avatar": "/src/images/icon2.png",
+        "name": "Jane Doe",
+        "rating": 4
+      }
+    },
+    {
+      "id": 12,
+      "name": "Gravity Falls",
+      "image": "/src/images/rainbow.jpg",
+      "description": "Lorem ipsum",
+      "type": "Action",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    }
+    ,
+    {
+      "id": 13,
+      "name": "Sailor Moon",
+      "image": "/src/images/sailor.jpg",
+      "description": "Lorem ipsum",
+      "type": "Action",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 14,
+      "name": "Beavis and Butt-Head",
+      "image": "/src/images/butt-head.jpg",
+      "description": "Lorem ipsum",
+      "type": "Action",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 15,
+      "name": "Loud House",
+      "image": "/src/images/gay.jpg",
+      "description": "Lorem ipsum",
+      "type": "Action",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 16,
+      "name": "Pinky and the Brain",
+      "image": "/src/images/pinky.jpg",
+      "description": "Lorem ipsum",
+      "type": "Cartoon",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 17,
+      "name": "Fish Hooks",
+      "image": "/src/images/fish.jpg",
+      "description": "Lorem ipsum",
+      "type": "Action",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 18,
+      "name": "Pocoyo",
+      "image": "/src/images/pocoyo.jpg",
+      "description": "Lorem ipsum",
+      "type": "Action",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/adventure.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 19,
+      "name": "As Told by Ginger",
+      "image": "/src/images/ginger.jpg",
+      "description": "Lorem ipsum",
+      "type": "Funny",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    },
+    {
+      "id": 20,
+      "name": "Spongebob",
+      "image": "/src/images/bob.jpg",
+      "description": "Lorem ipsum",
+      "type": "Cartoon",
+      "price": 14,
+      "creator": {
+        "avatar": "/src/images/icon1.png",
+        "name": "John Snow",
+        "rating": 5
+      }
+    }
+    
+  ]
+  

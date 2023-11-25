@@ -1,0 +1,98 @@
+
+
+article {
+    margin-bottom: 20px;
+    background-color: white;
+  }
+    
+  .portada  {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .product-buttons .edit{
+      background-color: #02d65a;
+  }
+  
+  .product-buttons .delete{
+    background-color: #d60202;
+  }
+  
+  .product-buttons button{
+        color: white;
+        font-weight: bold;
+        margin: 5px;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        box-shadow: 0 4px 8px rgba(255, 255, 255, 0.052);
+        transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .product-buttons button:hover{
+    background-color: #106b59;
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  
+  .contenido .informacion {
+    margin: 15px;
+  }
+  
+  .contenido .informacion .creator{
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin-top: 10px;
+      border-top: 1px solid #333;
+  }
+  
+  .ico{
+      font-family:'iconos';
+      content: "\e9d9";
+      color: #fcb92d;
+  }
+  
+  
+  .portada img {
+    padding: 10px;
+    height: 200px;
+    width: 400px;
+  }
+  
+  
+  .tag-precio{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color: black;
+    font-size: 22px;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .tag-precio .type p{
+    color: #02d6ae;;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .avatar img{
+    height: 30px;
+    width: 30px;
+    margin: 5px 10px 5px 5px;
+  }
+  
+  .nombre{
+    font-size: 15px;
+    font-weight: bold;
+  }
+  
+  .ranking {
+    margin-left: auto;
+  }
+  
+  .ranking span{
+    color: yellow;
+  }
+  
+  
