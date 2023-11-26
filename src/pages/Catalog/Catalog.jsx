@@ -13,6 +13,8 @@ class Catalog extends Component {
           productsPerPage: 10,
           products:[],
         };
+
+        this.editProduct = this.editProduct.bind(this);
       }
     
       nextPage = () => {
@@ -29,7 +31,7 @@ class Catalog extends Component {
 
       editProduct = (productId, newName) => {
         const updatedProducts = this.state.products.map((product) =>
-          product.id === productId ? { ...product, name: newName } : product
+          product.id === productId ? { ...product, name: newName } : {...product}
         );
     
         this.setState({ products: updatedProducts });
@@ -38,7 +40,6 @@ class Catalog extends Component {
 
       saveProducts = (products) => {
         this.setState({ products });
-        
       }
 
       
@@ -57,7 +58,10 @@ class Catalog extends Component {
           {this.props.products
             .slice((currentPage - 1) * productsPerPage, currentPage * productsPerPage)
             .map((product) => (
-              <Product key={product.id} {...product} isAdmin={this.props.isAdmin}/>
+              <Product key={product.id} 
+              {...product} isAdmin={this.props.isAdmin}
+              editProduct={this.editProduct}
+              />
             ))}
         </section>
       </div>
