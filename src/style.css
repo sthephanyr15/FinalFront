@@ -10,7 +10,7 @@ nav {
     align-items:center;
     flex-direction: column;
     height: 430px;
-    background-image: url('/src/images/city.jpg');
+    background-image: url('/src/images/city3.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
@@ -31,7 +31,7 @@ nav {
 
 
 .nav-buttons{
-    margin-bottom: 160px;
+    margin-bottom: 170px;
 }
 .nav-buttons button {
     background-color: #02d6ae;
