@@ -37,8 +37,7 @@ class App extends Component {
               <button onClick={() => this.setState({ isAdmin: false })}>Home</button>
               <button onClick={() => this.setState({ isAdmin: true })}>Admin Panel</button>
             </div>
-            
-            <img src="/src/images/rb.png" alt="Logo" />
+            <div className="award"></div>
 
               <div className="blue-box">
                 <div className="blue-box-container">

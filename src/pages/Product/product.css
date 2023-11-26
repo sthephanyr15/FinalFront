@@ -33,6 +33,14 @@ article {
     background-color: #106b59;
     box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
   }
+
+  .portada {
+      height: 300px;
+      width: 400px;
+      background-size: cover;
+      background-position: center; 
+      background-repeat: no-repeat;
+  }
   
   .contenido .informacion {
     margin: 15px;

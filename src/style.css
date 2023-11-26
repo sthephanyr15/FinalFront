@@ -11,9 +11,24 @@ nav {
     flex-direction: column;
     height: 430px;
     background-image: url('/src/images/background.jpg');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
     color: #fff;
     
 }
+
+.award {
+    height: 100px;
+    width: 500px;
+    background-image: url('/src/images/rb.png');
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat; 
+    margin-top: 0;
+}
+
+
 
 .nav-buttons{
     margin-bottom: 160px;

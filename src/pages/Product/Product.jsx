@@ -101,7 +101,8 @@ class Product extends Component {
                     )}
                   </div>
                 )}
-                <img src={image} alt="portada" />
+                 <div className="portada" style={{ backgroundImage: `url(${image})` }}></div>
+
               </div>
               <div className="informacion">
                 <div className="titulo">
