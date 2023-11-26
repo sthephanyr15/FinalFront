@@ -10,7 +10,7 @@ nav {
     align-items:center;
     flex-direction: column;
     height: 430px;
-    background-image: url('/src/images/background.jpg');
+    background-image: url('/src/images/city.jpg');
     background-size: cover;
     background-position: center; 
     background-repeat: no-repeat; 
