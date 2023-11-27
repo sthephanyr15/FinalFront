@@ -8,6 +8,7 @@ import '../../fonts/icomoon.woff';
 
 class Product extends Component {
   constructor(props) {
+    
     super(props);
     this.state = {
       isEditing: false,
@@ -72,8 +73,26 @@ class Product extends Component {
     };
   };
 
+  getAssetSrc(name ) {
+    const path = `/src/assets/${name}`;
+    const modules = import.meta.glob("/src/assets/*", { eager: true });
+    const mod = modules[path] 
+    return mod.default;
+  }
+
+  getImageUrl(name) {
+    return new URL(`${name}`, import.meta.url).href
+  }
+
   render() {
     const { image, name, description, type, price, creator, isAdmin } = this.props;
+    const getAssetSrc = (name) => {
+      const path = `${name}`;
+      console.log(path)
+      const modules = import.meta.glob("/src/images/*", { eager: true });
+      const mod = modules[path] 
+      return mod.default;
+  };
 
 
     return (
@@ -101,7 +120,7 @@ class Product extends Component {
                     )}
                   </div>
                 )}
-                 <div className="portada" style={{ backgroundImage: `url(${image})` }}></div>
+                 <img className="portada" style={{ backgroundImage: `url(${getAssetSrc(image)})` }}></img>
 
               </div>
               <div className="informacion">
@@ -144,7 +163,7 @@ class Product extends Component {
                 </div>
                 <div className="creator">
                   <div className="avatar">
-                    <img src={creator.avatar} alt="avatar"></img>
+                    <img src={getAssetSrc(creator.avatar)} alt="avatar"></img>
                   </div>
                   {this.state.isEditing ? (
                     <input
