@@ -61,7 +61,7 @@ class App extends Component {
           <Catalog products={filteredProducts} isAdmin={isAdmin}></Catalog>
         </main>
         <footer>
-          <p>&copy; 2023 Desarrollado por: Marcela V. Hernández López y Sthephany Rojas Sabogal</p>
+          <p>&copy; 2023 Desarrollado por: Marcela V. Hernández López, Sthephany Rojas Sabogal y Alex E. Figueroa Caguana</p>
         </footer>
       </div>
     );
